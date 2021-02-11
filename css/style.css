@@ -1,0 +1,610 @@
+.topnava a:link {
+    text-decoration: none!important;
+    color:black!important;
+    font-family: 'comic sans ms' ;
+    font-size: 25px;
+  
+  }
+  
+  .topnava a:visited {
+    text-decoration: none!important;
+     color:black!important;
+  }
+  
+  .topnava a:hover {
+    text-decoration: none!important;
+    color:#66B2FF!important;
+  }
+  
+  .topnava a:active {
+    text-decoration: none!important;
+    color:black!important;
+  }
+
+  .topnavb a:link {
+    text-decoration: none!important;
+    color:white!important;
+  
+  }
+  
+  .topnavb a:visited {
+    text-decoration: none!important;
+     color:white!important;
+  }
+  
+  .topnavb a:hover {
+    text-decoration: none!important;
+    color:black!important;
+  }
+  
+  .topnavb a:active {
+    text-decoration: none!important;
+    color:white!important;
+  }
+
+  .topnavc a:link {
+    text-decoration: none!important;
+    color:#00CED1!important;
+  
+  }
+  
+  .topnavc a:visited {
+    text-decoration: none!important;
+     color:#00CED1!important;
+  }
+  
+  .topnavc a:hover {
+    text-decoration: none!important;
+    color:#a4bedb!important;
+  }
+  
+  .topnavc a:active {
+    text-decoration: none!important;
+    color:#00CED1!important;
+  }
+
+  .noDec{
+
+    text-decoration: none;
+    
+  }
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  body { 
+  
+    font-family:'comic sans';
+    font-size: 25px;
+
+  }
+  .heading-primary {
+    font-size:2em;
+    padding:2em;
+   
+  }
+  .accordion dl,
+  .accordion-list {
+     border:1px solid #ddd;
+     &:after {
+         content: "";
+         display:block;
+         height:1em;
+         width:100%;
+         background-color:darken(#38cc70, 10%);
+       }
+  }
+  .accordion dd,
+  .accordion__panel {
+     background-color:#eee;
+     font-size:1em;
+     line-height:1.5em; 
+  }
+  .accordion p {
+    padding:1em 2em 1em 2em;
+  }
+  
+  .accordion {
+      position:relative;
+      background-color:#eee;
+  }
+  .container {
+    max-width:960px;
+    margin:0 auto;
+    padding:2em 0 2em 0;
+  }
+  .accordionTitle,
+  .accordion__Heading {
+   background-color:#a4bedb; 
+     text-align:center;
+       font-weight:700; 
+            padding:2em;
+            display:block;
+            text-decoration:none;
+            color:#fff;
+            transition:background-color 0.5s ease-in-out;
+    border-bottom:1px solid darken(#38cc70, 5%);
+    &:before {
+     content: "+";
+     font-size:1.5em;
+     line-height:0.5em;
+     float:left; 
+     transition: transform 0.3s ease-in-out;
+    }
+    &:hover {
+      background-color:darken(#38cc70, 10%);
+    }
+  }
+  .accordionTitleActive, 
+  .accordionTitle.is-expanded {
+     background-color:darken(#38cc70, 10%);
+      &:before {
+       
+        transform:rotate(-225deg);
+      }
+  }
+  .accordionItem {
+      height:auto;
+      overflow:hidden; 
+      //SHAME: magic number to allow the accordion to animate
+      
+       max-height:50em;
+      transition:max-height 1s;   
+   
+      
+      @media screen and (min-width:48em) {
+           max-height:15em;
+          transition:max-height 0.5s
+          
+      }
+      
+     
+  }
+   
+  .accordionItem.is-collapsed {
+      max-height:0;
+  }
+  .no-js .accordionItem.is-collapsed {
+    max-height: auto;
+  }
+  .animateIn {
+       animation: accordionIn 0.45s normal ease-in-out both 1; 
+  }
+  .animateOut {
+       animation: accordionOut 0.45s alternate ease-in-out both 1;
+  }
+  @keyframes accordionIn {
+    0% {
+      opacity: 0;
+      transform:scale(0.9) rotateX(-60deg);
+      transform-origin: 50% 0;
+    }
+    100% {
+      opacity:1;
+      transform:scale(1);
+    }
+  }
+  
+  @keyframes accordionOut {
+      0% {
+         opacity: 1;
+         transform:scale(1);
+       }
+       100% {
+            opacity:0;
+             transform:scale(0.9) rotateX(-60deg);
+         }
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 30px;
+    font-size: 25px;
+    font-family: comic sans ms ;
+  }
+
+  .thC{
+
+    text-align: center;
+
+  }
+
+.rel{
+
+    font-size: 25px;
+    font-family: comic sans ms ;
+}
+
+.text{
+
+    font-size: 25px;
+    font-family: comic sans ms ;
+    color: white;
+}
+
+.texta{
+
+    font-size: 50px;
+    font-family: comic sans ms ;
+    color: white;
+}
+
+.textb{
+
+  font-size: 25px;
+  font-family: comic sans ms ;
+  color: white;
+}
+
+.ico {
+
+
+  font-size: 25px;
+  font-family: comic sans ms ;
+
+}
+
+.footah
+
+{
+
+  font-size: 20px;
+  font-family: comic sans ms;
+  text-align: center;
+  background-color: black;
+
+
+}
+
+.buttons {
+    
+    
+    border-radius: 8px;
+
+}
+
+.flecha{
+
+    color: white;
+
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #a4bedb;
+    color: black;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+.our-team-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:5px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:10px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+	margin-bottom:28px;
+}
+
+
+.our-team-main img
+{
+	border-radius:50%;
+	margin-bottom:20px;
+	width: 90px;
+}
+
+.our-team-main h3
+{
+	font-size:20px;
+	font-weight:700;
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.team-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+
+/*our-team-main*/
+
+#precio {
+    color: black;
+}
+
+#tablasPrecios{
+    width: 50%; 
+    margin: auto;
+}
+
+map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:1000;
+    height:30%;
+    width:20%;
+    position:absolute;
+    margin-left: 15%;
+}
+
+    .footerAux{
+        background-color: black;
+        backdrop-filter:blur(15px);
+        padding: 10px;
+        text-align: center;
+        font-size: 20;
+        font-family:'comic sans';
+        color: white;
+        background-size: 10px;
+        margin-top: 100px;
+    }
+        .liknsfooter{
+        color: #00CED1;
+         }
+
+a {
+    text-decoration: none;
+}
+
+.pricingTable {
+    text-align: center
+}
+
+.pricingTable .pricingTable-header {
+    padding: 30px 0;
+    background: #4d4d4d;
+    position: relative;
+    transition: all .3s ease 0s
+}
+
+.pricingTable:hover .pricingTable-header {
+    background: #09b2c6
+}
+
+.pricingTable .pricingTable-header:after,
+.pricingTable .pricingTable-header:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d8;
+    position: absolute;
+    bottom: 12px
+}
+
+.pricingTable .pricingTable-header:before {
+    left: 40px
+}
+
+.pricingTable .pricingTable-header:after {
+    right: 40px
+}
+
+.pricingTable .heading {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 0
+}
+
+.pricingTable .price-value {
+    display: inline-block;
+    position: relative;
+    font-size: 55px;
+    font-weight: 700;
+    color: #09b1c5;
+    transition: all .3s ease 0s
+}
+
+.pricingTable:hover .price-value {
+    color: #fff
+}
+
+.pricingTable .currency {
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 6px;
+    left: -19px
+}
+
+.pricingTable .month {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    right: -30px;
+    text-transform: uppercase
+}
+
+.pricingTable .pricing-content {
+    padding-top: 50px;
+    background: #fff;
+    position: relative
+}
+
+.pricingTable .pricing-content:after,
+.pricingTable .pricing-content:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #7c7c7c;
+    position: absolute;
+    top: 12px
+}
+
+.pricingTable .pricing-content:before {
+    left: 40px
+}
+
+.pricingTable .pricing-content:after {
+    right: 40px
+}
+
+.pricingTable .pricing-content ul {
+    padding: 0 20px;
+    margin: 0;
+    list-style: none
+}
+
+.pricingTable .pricing-content ul:after,
+.pricingTable .pricing-content ul:before {
+    content: "";
+    width: 8px;
+    height: 46px;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #818282 50%, #727373 50%);
+    position: absolute;
+    top: -22px;
+    z-index: 1;
+    box-shadow: 0 0 5px #707070;
+    transition: all .3s ease 0s
+}
+
+.pricingTable:hover .pricing-content ul:after,
+.pricingTable:hover .pricing-content ul:before {
+    background: linear-gradient(to bottom, #40c4db 50%, #34bacc 50%)
+}
+
+.pricingTable .pricing-content ul:before {
+    left: 44px
+}
+
+.pricingTable .pricing-content ul:after {
+    right: 44px
+}
+
+.pricingTable .pricing-content ul li {
+    font-size: 15px;
+    font-weight: 700;
+    color: #777473;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d8
+}
+
+.pricingTable .pricing-content ul li:last-child {
+    border-bottom: none
+}
+
+.pricingTable .read {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    background: #d9d9d8;
+    padding: 8px 25px;
+    margin: 30px 0;
+    transition: all .3s ease 0s;
+    font-size: 20px;
+}
+
+.pricingTable .read:hover {
+    text-decoration: none
+}
+
+.pricingTable:hover .read {
+    background: #09b1c5
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin-bottom: 25px
+    }
+
+.botones {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+      }    
+
+
+    
