@@ -1,0 +1,26 @@
+sweet-alert 
+!important
+responsive images
+container fluid
+
+Añadidos
+
+Botones https://getbootstrap.com/docs/4.0/components/buttons/
+
+Iconos https://fontawesome.com/icons/star?style=regular Color https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
+
+RGB https://www.rapidtables.com/web/color/RGB_Color.html
+
+Video https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_video_js_prop
+
+Position https://developer.mozilla.org/es/docs/Web/CSS/position
+
+Box https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel_width
+
+Images https://getbootstrap.com/docs/5.0/content/images/#responsive-images
+
+Alert https://getbootstrap.com/docs/5.0/components/alerts/
+
+Navs https://getbootstrap.com/docs/5.0/components/alerts/\\
+
+Fonts https://www.w3schools.com/cssref/css_websafe_fonts.asp
