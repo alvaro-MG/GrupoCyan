@@ -1,11 +1,11 @@
-sweet-alert 
+sweet-alert https://sweetalert2.github.io/
 !important
 responsive images
 container fluid
 
 Añadidos
 
-Botones https://getbootstrap.com/docs/4.0/components/buttons/
+Botones https://getbootstrap.com/docs/4.0/components/buttons/ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_round_buttons
 
 Iconos https://fontawesome.com/icons/star?style=regular Color https://fontawesome.com/how-to-use/on-the-web/referencing-icons/basic-use
 
@@ -19,8 +19,16 @@ Box https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel https://www
 
 Images https://getbootstrap.com/docs/5.0/content/images/#responsive-images
 
-Alert https://getbootstrap.com/docs/5.0/components/alerts/
+Alert https://getbootstrap.com/docs/5.0/components/alerts/ https://getbootstrap.com/docs/5.0/components/alerts/
 
 Navs https://getbootstrap.com/docs/5.0/components/alerts/\\
 
-Fonts https://www.w3schools.com/cssref/css_websafe_fonts.asp
+DropDown https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown
+
+Responsive images https://getbootstrap.com/docs/5.0/content/images/#responsive-images
+
+Accordion https://uicookies.com/bootstrap-accordion/ https://codepen.io/chriswrightdesign/pen/cmanI
+
+Cookies https://codepen.io/pen/
+
+Navbar https://morioh.com/p/d0e56aa2d6e4
