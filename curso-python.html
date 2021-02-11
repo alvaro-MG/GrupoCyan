@@ -1,73 +1,232 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
-    <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.css'>
-    <link rel="stylesheet" href='https://code.jquery.com/jquery-3.4.1.slim.js'>
-    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js'>
-    <link rel="stylesheet" href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css'>
-    <!-- Buscar 5.0 -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!-- Script para ejecutar clases de Boostrap -->
+ 
+  
+  <!-- Script para ejecutar clases de fontAwesome -->
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<!------ ---------->
 
 </head>
 
+<body style="background-color: #a4bedb;"> 
 
-<body>
+<div class="topnava">
 
-
-      <!-- EJECUCION DE TODOS LOS SCRIPTS -->
-  <!-- <script>loadScripts();</script> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!--  <body style="background-image: url(images/fondoBody.jpg); background-repeat: no-repeat;"> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <!-- La imagen acotada con href para que te devuelva a la home cuando la pulsas -->
-      <a class="navbar-brand"><a href="index.html">
-        <img src="images/logo.jpg" width="60" height="60" alt="">
-      </a></a>
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" width="60" height="60" alt="">
+      </a>
       <div class="row collapse navbar-collapse" id="navbarTogglerDemo03">
         <div class="col-8">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="col nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">CURSOS CORAL</a>
+            </li>
+            <li class="col nav-item">
               <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
             </li>
             <li class="col nav-item">
-              <a class="nav-link" href="#">Precios</a>
+              <a class="nav-link active" aria-current="page" href="#">Precios</a>
             </li>
             <li class="col nav-item">
-              <a class="nav-link" href="#">Conocenos</a>
+              <a class="nav-link active" href="#">Conocenos</a>
             </li>
           </ul>
         </div>
+ 
         <div class="col-4 row">
           <form class="col-md-10 d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-info" type="submit">
-              <i class="fas fa-search fa-2x"></i>
+            <button class="btn btn-info" type="submit">
+              <span style="color:white"><i class="fas fa-search fa-2x"></i></span>
             </button>
           </form>
+
+
           <div class="col-md-2">
-            <a href="#" class="btn btn-lg btn-block kpx_btn-twitter" data-toggle="tooltip" data-placement="top"
-              title="Twitter">
+            <a href="#" class="btn btn-lg btn-block" data-toggle="tooltip" data-placement="top">
               <i class="fas fa-user fa-2x"></i>
-              <span class="hidden-xs"></span>
-            </a>
+              <span class="hidden-xs"></span></a>
+              
+            
           </div>
         </div>
       </div>
     </div>
-  </nav>   
+  </nav>
+</div>
+<br>    
+
+<div class="col-md-8 mx-auto my-5">
+
+ <div class="topnavb"> 
+
+<p class="rel" ><a href="index.html">Inicio >
+</a><a href="cursos.html"> Cursos ></a><a href="curso-python.html"> Python</a>
+
+</div>
+
+<p class="text">Curso De Programación Básico.</p> <!-- Añadir fuente de letra, tamaño & color-->
+
+<pre class="text">
+Aprende a programar con Java de una forma rápida y sencilla.
+Para principiantes en Java.</pre>
+
+
+
+<p class="textb"> 5.5 (2.000 Reviews) <span style="color: white;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i>  </span><i class="fas fa-plus"></i>200.000 Estudiantes</p>
+
+<div>
+
+<img src="/images/play.png" width="540" height="290" class="img-fluid"></p>
+
+</div> 
+<!--+200.000 Estudiantes -->
+<div class="topnavb">
+
+<p class="textb">Creado Por<a href="" style="color: cyan;"> Grupo Cyan</a> </p>
+<p class="textb"><i class="far fa-star"></i> Última Actualización 25/02/2020</p>
+<p class="textb"><i class="far fa-comment-alt"></i> Idioma : Español & Inglés</p> 
+
+ <button type="button" class="btn btn-outline-light botones ico">Añadir a lista de deseos <i class="far fa-heart"></i></button> 
+ <button type="button" class="btn btn-outline-light botones ico">Compartir  <i class="fas fa-share-alt"></i></button>
+ <button type="button" class="btn btn-outline-light botones ico">Me Gusta  <i class="far fa-thumbs-up"></i></button>
+
+</div>
+
+</div>
+
+<div style="background-color: white;"> 
+
+  <hr size="20" noshade="noshade" style="color:#a4bedb;">
+
+
+<div container-fluid>
+
+
+  <div class="col-md-8 mx-auto my-5">
+
+<table>
+
+<tr>
+  
+<th>
+ - Lo Que Aprenderás En Este Curso:
+</th>
+
+
+<th class=""></th>
+
+</tr>
+  
+<tr>
+<td>
+ <i class="fas fa-share"></i> Aprenderás Java de la manera moderna
+    paso a paso de una forma fácil.</td> 
+
+<td>
+<i class="fas fa-share"></i> Mediante las mejores prácticas
+     en código Java.</td> 
+</tr>
+  
+<tr>
+<td>
+ <i class="fas fa-share"></i> Aprenderás a resolver ejercicios
+    de programación con Java.
+</td>
+
+<td>
+
+<i class="fas fa-share"></i> Aprenderás las básicas de programación
+     orientada a objetos. 
+</tr>
+  
+<tr>
+
+<td>
+
+ <i class="fas fa-share"></i> Aprende las funciones
+   básicas de programación
+   de Java. 
+</td>
+
+<td>
+<i class="fas fa-share"></i> Aprende a programar
+    en Eclipse. 
+</td>
+
+</tr>
+  
+</table>
+
+</div>
+<div class="col-md-8 mx-auto my-5">
+
+  <div class="container">
+    <div class="accordion">
+      <dl>
+        <dt>
+          <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger"><i class="fas fa-plus"></i> Curso De Programación Con Java - Nivel 1-5 (Principiante)</a>
+        </dt>
+        <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+          <p>Lorem ipsum dolor sit amet, consectetur <a href="https://www.google.com">Test</a>adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+          <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+        </dd>
+        <dt>
+          <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">
+            <i class="fas fa-plus"></i> Curso De Programación Con Java - Nivel 6-10 (Intermedio)</a>
+        </dt>
+        <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+          <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+        </dd>
+        <dt>
+          <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
+            <i class="fas fa-plus"></i> Curso De Programación Con Java - Nivel 11-15 (Experto)
+          </a>
+        </dt>
+        <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
+          <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+</div>
+
+
+
+<script src="js/accordion.js">
+
+</script>
+</div>
+
+<footer class="footerAux topnavc footah">
+  <p style="footah">Trabajo hecho por Javier López Ramírez, Carlos Daniell Tec Puhawan, Álvaro Martín Gomez y Carlos Raul Salazar</a>
+  <a class="liknsfooter footah" href="https://www.iaeu.edu.es/footer-menu/condiciones-legales/%22%3ECondiciones Legales</a> | <a class="liknsfooter footah" href="ABOUT.html">
+    
+      © CursosCoral.com | About | Terms of Use | Privacy Policy | Manage Cookies | Contacto</a> 
+
+  <i class="fa fa-linkedin-square"></i>
+  <i class="fa fa-facebook-square"></i>
+  <i class="fa fa-twitter-square"></i>
+</footer>
 
 </body>
-
-
-<script src="/.js"></script>
 
 
 </html>

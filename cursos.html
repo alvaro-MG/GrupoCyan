@@ -4,248 +4,73 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="css/style.css" rel="stylesheet" />
   <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+  <script src="js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
-  <!-- Script para ejecutar clases de Boostrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-  <!-- Script para ejecutar clases de fontAwesome -->
-  <script src="https://kit.fontawesome.com/9c6a5e5591.js" crossorigin="anonymous"></script>
-  <script src="doinit.js"></script>
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
-<!------ ---------->
 
 
 </head>
 
-<body style="background-color:#a4bedb;">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.png" width="60" height="60" alt="">
-      </a>
-      <div class="row collapse navbar-collapse" id="navbarTogglerDemo03">
-        <div class="col-8">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="col nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">CURSOS CORAL</a>
-            </li>
-            <li class="col nav-item">
-              <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
-            </li>
-            <li class="col nav-item">
-              <a class="nav-link" href="#">Precios</a>
-            </li>
-            <li class="col nav-item">
-              <a class="nav-link disabled" href="#">Conocenos</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-4 row">
-          <form class="col-md-10 d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-info" type="submit">
-              <i class="fas fa-search fa-2x"></i>
-            </button>
-          </form>
-          <div class="col-md-2">
-            <a href="#" class="btn btn-lg btn-block" data-toggle="tooltip" data-placement="top">
-              <i class="fas fa-user fa-2x"></i>
-              <span class="hidden-xs"></span>
-            </a>
+<body style="background-color: #a4bedb;">   
+
+   <div class="topnava topText">
+
+    <!--  <body style="background-image: url(images/fondoBody.jpg); background-repeat: no-repeat;"> -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" width="60" height="60" alt="">
+          </a>
+          <div class="row collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="col-8">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="col nav-item">
+                  <a class="nav-link active texta" aria-current="page" href="index.html">CURSOS CORAL</a>
+                </li>
+                <li class="col nav-item">
+                  <a class="nav-link active texta" aria-current="page" href="cursos.html">Cursos</a>
+                </li>
+                <li class="col nav-item">
+                  <a class="nav-link active texta" aria-current="page" href="#">Precios</a>
+                </li>
+                <li class="col nav-item">
+                  <a class="nav-link active texta" href="#">Conocenos</a>
+                </li>
+              </ul>
+            </div>
+     
+            <div class="col-4 row">
+              <form class="col-md-10 d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info" type="submit">
+                  <span style="color:white"><i class="fas fa-search fa-2x"></i></span>
+                </button>
+              </form>
+    
+    
+              <div class="col-md-2">
+                <a href="#" class="btn btn-lg btn-block" data-toggle="tooltip" data-placement="top">
+                  <i class="fas fa-user fa-2x"></i>
+                  <span class="hidden-xs"></span></a>
+                  
+                
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      </nav>
     </div>
-  </nav>
 
   <section> 
 
     <div class="demo10">
         <div class="container">
-            <h1 class="py-4 text-center">Cursos</h1>
             <br>
-            <style>
-            
-            a {
-                text-decoration: none;
-            }
-            
-            .pricingTable {
-                text-align: center
-            }
-            
-            .pricingTable .pricingTable-header {
-                padding: 30px 0;
-                background: #4d4d4d;
-                position: relative;
-                transition: all .3s ease 0s
-            }
-            
-            .pricingTable:hover .pricingTable-header {
-                background: #09b2c6
-            }
-            
-            .pricingTable .pricingTable-header:after,
-            .pricingTable .pricingTable-header:before {
-                content: "";
-                width: 16px;
-                height: 16px;
-                border-radius: 50%;
-                border: 1px solid #d9d9d8;
-                position: absolute;
-                bottom: 12px
-            }
-            
-            .pricingTable .pricingTable-header:before {
-                left: 40px
-            }
-            
-            .pricingTable .pricingTable-header:after {
-                right: 40px
-            }
-            
-            .pricingTable .heading {
-                font-size: 20px;
-                color: #fff;
-                text-transform: uppercase;
-                letter-spacing: 2px;
-                margin-top: 0
-            }
-            
-            .pricingTable .price-value {
-                display: inline-block;
-                position: relative;
-                font-size: 55px;
-                font-weight: 700;
-                color: #09b1c5;
-                transition: all .3s ease 0s
-            }
-            
-            .pricingTable:hover .price-value {
-                color: #fff
-            }
-            
-            .pricingTable .currency {
-                font-size: 30px;
-                font-weight: 700;
-                position: absolute;
-                top: 6px;
-                left: -19px
-            }
-            
-            .pricingTable .month {
-                font-size: 16px;
-                color: #fff;
-                position: absolute;
-                bottom: 15px;
-                right: -30px;
-                text-transform: uppercase
-            }
-            
-            .pricingTable .pricing-content {
-                padding-top: 50px;
-                background: #fff;
-                position: relative
-            }
-            
-            .pricingTable .pricing-content:after,
-            .pricingTable .pricing-content:before {
-                content: "";
-                width: 16px;
-                height: 16px;
-                border-radius: 50%;
-                border: 1px solid #7c7c7c;
-                position: absolute;
-                top: 12px
-            }
-            
-            .pricingTable .pricing-content:before {
-                left: 40px
-            }
-            
-            .pricingTable .pricing-content:after {
-                right: 40px
-            }
-            
-            .pricingTable .pricing-content ul {
-                padding: 0 20px;
-                margin: 0;
-                list-style: none
-            }
-            
-            .pricingTable .pricing-content ul:after,
-            .pricingTable .pricing-content ul:before {
-                content: "";
-                width: 8px;
-                height: 46px;
-                border-radius: 3px;
-                background: linear-gradient(to bottom, #818282 50%, #727373 50%);
-                position: absolute;
-                top: -22px;
-                z-index: 1;
-                box-shadow: 0 0 5px #707070;
-                transition: all .3s ease 0s
-            }
-            
-            .pricingTable:hover .pricing-content ul:after,
-            .pricingTable:hover .pricing-content ul:before {
-                background: linear-gradient(to bottom, #40c4db 50%, #34bacc 50%)
-            }
-            
-            .pricingTable .pricing-content ul:before {
-                left: 44px
-            }
-            
-            .pricingTable .pricing-content ul:after {
-                right: 44px
-            }
-            
-            .pricingTable .pricing-content ul li {
-                font-size: 15px;
-                font-weight: 700;
-                color: #777473;
-                padding: 10px 0;
-                border-bottom: 1px solid #d9d9d8
-            }
-            
-            .pricingTable .pricing-content ul li:last-child {
-                border-bottom: none
-            }
-            
-            .pricingTable .read {
-                display: inline-block;
-                font-size: 16px;
-                color: #fff;
-                text-transform: uppercase;
-                background: #d9d9d8;
-                padding: 8px 25px;
-                margin: 30px 0;
-                transition: all .3s ease 0s
-            }
-            
-            .pricingTable .read:hover {
-                text-decoration: none
-            }
-            
-            .pricingTable:hover .read {
-                background: #09b1c5
-            }
-            
-            @media screen and (max-width:990px) {
-                .pricingTable {
-                    margin-bottom: 25px
-                }
-            }</style>
+            <h1 class="texta text-center">Cursos</h1>
+            <br>
+           
                                             <script type='text/javascript' src=''></script>
                                             <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
                                             <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
@@ -257,57 +82,57 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="pricingTable">
                                 <div class="pricingTable-header">
-                                    <h3 class="heading">Java</h3>
+                                    <h3 class="heading texta">Java</h3>
                                    
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/java.jpg" width="220" height="250"></li>
+                                        <li><img src="/images/java.jpg" width="220" height="250" class="img-fluid"></li>
                                   
                                     </ul>
-                                    <a href="curso-java.html" class="read">Ver Más</a>
+                                    <a href="curso-java.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="pricingTable">
                                 <div class="pricingTable-header">
-                                    <h3 class="heading">JavaScript</h3>
+                                    <h3 class="heading texta">JavaScript</h3>
                                    
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/javascript.png" width="220" height="250"></li>
+                                        <li><img src="/images/js.png" width="220" height="250" class="img-fluid"></li> 
                                     </ul>
-                                    <a href="curso-javascript.html" class="read">Ver Más</a>
+                                    <a href="curso-javascript.html" class="read noDec">Ver Más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="pricingTable">
                                 <div class="pricingTable-header">
-                                    <h3 class="heading">HTML & CSS</h3>
+                                    <h3 class="heading texta">HTML & CSS</h3>
                                     
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/html-css.png" width="220" height="250"></li>
+                                        <li><img src="/images/html5.png" width="220" height="250" class="img-fluid"></li>
                                     </ul>
-                                    <a href="curso-html-css.html" class="read">Ver Más</a>
+                                    <a href="curso-html-css.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="pricingTable">
                                 <div class="pricingTable-header">
-                                    <h3 class="heading">BootStrap</h3>
+                                    <h3 class="heading texta">BootStrap</h3>
                                     
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/bootstrap.png" width="220" height="250"></li>
+                                        <li><img src="/images/bootstrap.png" width="220" height="250" class="img-fluid"></li>
                                     </ul>
-                                    <a href="curso-bootstrap.html" class="read">Ver Más</a>
+                                    <a href="curso-bootstrap.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                             <br>  <br>  <br>
@@ -321,9 +146,9 @@
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/python.png" width="220" height="250"></li>
+                                        <li><img src="/images/python.png" width="220" height="250" class="img-fluid"></li>
                                     </ul>
-                                    <a href="curso-python.html" class="read">Ver Más</a>
+                                    <a href="curso-python.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -335,23 +160,23 @@
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/json-xml.png" width="220" height="250"></li>
+                                        <li><img src="/images/json-xml.png" width="220" height="250" class="img-fluid"></li>
                                     </ul>
-                                    <a href="curso-json-xml.html" class="read">Ver Más</a>
+                                    <a href="curso-json-xml.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="pricingTable">
                                 <div class="pricingTable-header">
-                                    <h3 class="heading">MySQL</h3>
+                                    <h3 class="heading texta">MySQL</h3>
                               
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/mysql.png" width="220" height="250"></li>
+                                        <li><img src="/images/mysql.png" width="220" height="250" class="img-fluid"></li>
                                     </ul>
-                                    <a href="curso-mysql.html" class="read">Ver Más</a>
+                                    <a href="curso-mysql.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -363,9 +188,9 @@
                                 </div>
                                 <div class="pricing-content">
                                     <ul>
-                                        <li><img src="/images/redmine.png" width="220" height="250"></li>
+                                        <li><img src="/images/redmine.png" width="220" height="250" class="img-fluid"></li>
                                     </ul>
-                                    <a href="curso-redmine.html" class="read">Ver Más</a>
+                                    <a href="curso-redmine.html" class="read noDec texta">Ver Más</a>
                                 </div>
                             </div>
                         </div>
@@ -378,16 +203,17 @@
 
 
 
-<footer class="footerAux">
-  <p style="text-align: center;">Trabajo hecho por Javier López Ramírez, Carlos Daniell Tec Puhawan, Álvaro Martín Gomez y Carlos Raul Salazar</a>
-  <a class="liknsfooter" href="https://www.iaeu.edu.es/footer-menu/condiciones-legales/%22%3ECondiciones Legales</a> | <a class="liknsfooter" href="ABOUT.html">
-    
-      © CursosCoral.com | About | Terms of Use | Privacy Policy | Manage Cookies | Contacto</a> 
-
-  <i class="fa fa-linkedin-square"></i>
-  <i class="fa fa-facebook-square"></i>
-  <i class="fa fa-twitter-square"></i>
-</footer>
+<footer class="footerAux topnavc footah">
+    <p style="footah">Trabajo hecho por Javier López Ramírez, Carlos Daniell Tec Puhawan, Álvaro Martín Gomez y Carlos Raul Salazar</a>
+    <a class="liknsfooter footah" href="https://www.iaeu.edu.es/footer-menu/condiciones-legales/%22%3ECondiciones Legales</a> | <a class="liknsfooter footah" href="ABOUT.html">
+      
+        © CursosCoral.com | About | Terms of Use | Privacy Policy | Manage Cookies | Contacto</a> 
+  
+    <i class="fa fa-linkedin-square"></i>
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-twitter-square"></i>
+  </footer>
+  
 </body>
 
 
