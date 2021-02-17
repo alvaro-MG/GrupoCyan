@@ -19,9 +19,9 @@
   <div class="topnava">
   
   <!--  <body style="background-image: url(images/fondoBody.jpg); background-repeat: no-repeat;"> -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="images/logo.png" width="60" height="60" alt="">
         </a>
         <div class="row collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -37,7 +37,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Precios</a>
               </li>
               <li class="col nav-item">
-                <a class="nav-link active" href="#">Conocenos</a>
+                <a class="nav-link active" href="#1">Conocenos</a>
               </li>
             </ul>
           </div>
@@ -134,7 +134,7 @@
 </section>
 
 <section style="background-color: #a4bedb;">
-<h1 style=" text-align: center; color: white;" class="display-1">CONOCE A NUESTRO EQUIPO</h1>
+<h1 id="1" style=" text-align: center; color: white;" class="display-1">CONOCE A NUESTRO EQUIPO</h1>
 
 <br>
 <br>
@@ -460,16 +460,70 @@ natoque.
 <div class="container">
   <h1 style=" text-align: center; color: white;" class="display-1">CONTACTA CON NOSOTROS</h1>
 
-  <!--Google map-->
-<div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-<iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-style="border:0" allowfullscreen></iframe>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <form class="form-horizontal" method="post">
+                    <fieldset>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"></span><br>
+                            <div class="col-md-8">
+                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"></span><br>
+                            <div class="col-md-8">
+                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"></span><br>
+                            <div class="col-md-8">
+                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"></span><br>
+                            <div class="col-md-8">
+                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <span class="col-md-1 col-md-offset-2 text-center"></span><br>
+                            <div class="col-md-8">
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-group col-md-12"><br>
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                        </div>
+                        
+                        <div class="form-group">
+                          <span class="col-md-1 col-md-offset-2 text-center"></span><br>
+                          <div class="col-md-8">
+                              <!--Google map-->
+                              <div  class="col-md-12">
+                                <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+                                <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+                                </div>
+                              </div>
+                              <!--Google Maps-->
+                          </div>
+                      </div>
+                    </fieldset>
+                </form>
+               </div>
+                 
+            </div>
+        </div>
+    </div>
 </div>
-
-<!--Google Maps-->
-
-</div>
-
 </section>
 
 

@@ -1,141 +1,132 @@
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="https//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script src="https//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!doctype html>
+<html lang="en">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/csslogin.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
-<link href="css/style.css" rel="stylesheet" />
-<link href="css/bootstrap.min.css" rel="stylesheet" />
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Signin Template · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
 
 
-<div class="container">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
-
-<body style="background-color: #a4bedb;"> 
-
-  <div class="topnava">
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
   
-    <!--  <body style="background-image: url(images/fondoBody.jpg); background-repeat: no-repeat;"> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/logo.png" width="60" height="60" alt="">
-          </a>
-          <div class="row collapse navbar-collapse" id="navbarTogglerDemo03">
-            <div class="col-8">
-              <ul class="navbar-nav me-auto mb-3 mb-lg-0">
-                <li class="col nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">CURSOS CORAL</a>
-                </li>
-                <li class="col nav-item">
-                  <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
-                </li>
-                <li class="col nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Precios</a>
-                </li>
-                <li class="col nav-item">
-                  <a class="nav-link active" href="#">Conocenos</a>
-                </li>
-              </ul>
-            </div>
-     
-            <div class="col-4 row">
-              <form class="col-md-10 d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-info" type="submit">
-                  <span style="color:white"><i class="fas fa-search fa-2x"></i></span>
-                </button>
-              </form>
+  
+  <body style="background-color: #ebf5ff;">
     
-    
-              <div class="col-md-2">
-                <a href="login.html" class="btn btn-outline-primary" data-toggle="tooltip" data-placement="top">
-                  <i class="fas fa-user fa-2x"></i>
-                  <span class="hidden-xs"></span></a>
-                  
-                
+    <div class="topnava">
+  
+        <!--  <body style="background-image: url(images/fondoBody.jpg); background-repeat: no-repeat;"> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" width="60" height="60" alt="">
+              </a>
+              <div class="row collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="col-8">
+                  <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                    <li class="col nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">CURSOS CORAL</a>
+                    </li>
+                    <li class="col nav-item">
+                      <a class="nav-link active" aria-current="page" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="col nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Precios</a>
+                    </li>
+                    <li class="col nav-item">
+                      <a class="nav-link active" href="#">Conocenos</a>
+                    </li>
+                  </ul>
+                </div>
+         
+                <div class="col-4 row">
+                  <form class="col-md-10 d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-info" type="submit">
+                      <span style="color:white"><i class="fas fa-search fa-2x"></i></span>
+                    </button>
+                  </form>
+        
+        
+                  <div class="col-md-2">
+                    <a href="login-test.html" class="btn btn-lg btn-block" data-toggle="tooltip" data-placement="top">
+                      <i class="fas fa-user fa-2x"></i>
+                      <span class="hidden-xs"></span></a>
+                      
+                    
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
+          </nav>
         </div>
-      </nav>
-    </div>
 
-
-
-<div class="card bg-light">
-<article class="card-body mx-auto" style="max-width: 400px;">
-	<h4 class="card-title mt-3 text-center">Create Account</h4>
-	<p class="text-center">Get started with your free account</p>
-	<p>
-		<a href="" class="btn btn-block btn-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter</a>
-		<a href="" class="btn btn-block btn-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook</a>
-	</p>
-	<p class="divider-text">
-        <span class="bg-light">OR</span>
-    </p>
-	<form>
-	<div class="form-group input-group">
-		<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-		 </div>
-        <input name="" class="form-control" placeholder="Full name" type="text" required>
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
-		 </div>
-        <input name="" class="form-control" placeholder="Email address" type="email"required>
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
-		</div>
-		<select class="custom-select" style="max-width: 120px;">
-		    <option selected="">+34</option>
-		    <option value="1">+54</option>
-		    <option value="2">+569</option>
-		    <option value="3">+701</option>
-		</select>
-    	<input name="" class="form-control" placeholder="Phone number" type="text"required>
-    </div> <!-- form-group// -->
-    <!-- form-group end.// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input class="form-control" placeholder="Create password" type="password"required>
-    </div> <!-- form-group// -->
-    <div class="form-group input-group">
-    	<div class="input-group-prepend">
-		    <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-		</div>
-        <input class="form-control" placeholder="Repeat password" type="password"required>
-    </div> <!-- form-group// -->                                      
-    <div class="form-group">
-        <button type="submit" class="btn btn-primary btn-block"> Create Account</button>
-    </div> <!-- form-group// -->      
-    <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
-</form>
-</article>
-</div> <!-- card.// -->
-
-</div> 
-<!--container end.//-->
-
-<br><br>
-<footer class="footerAux  ">
-  <p style="text-align: center;"><p class="footah">Trabajo hecho por Javier López Ramírez, Carlos Daniell Tec Puhawan, Álvaro Martín Gomez y Carlos Raul Salazar</a>
-  <a class="liknsfooter footah" href="https://www.iaeu.edu.es/footer-menu/condiciones-legales/%22%3ECondiciones Legales</a> | <a class="liknsfooter" href="ABOUT.html">
     
-      © CursosCoral.com | About | Terms of Use | Privacy Policy | Manage Cookies | Contacto</a> 
+<div class="form-signin">
 
-  <i class="fa fa-linkedin-square"></i>
-  <i class="fa fa-facebook-square"></i>
-  <i class="fa fa-twitter-square"></i>
-</footer>
-</body>
+  <form style="text-align: center;">      
+    <img class="mb-4" src="images/logo.png" alt="" width="80" height="80">
+    <h1 class="h3 mb-3 fw-normal"style="text-align: center; ">Please sign in</h1>
+    <label for="inputEmail" class="visually-hidden">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <label for="inputPassword" class="visually-hidden">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" > Remember me
+      </label>
 
+        
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+
+    <a class="liknsfooter footah" href="register.html"liknsfooter" href="ABOUT.html">Register here</a> 
+  
+
+  </form>
+</div>
+
+
+    
+  </body>
 </html>
