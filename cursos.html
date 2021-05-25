@@ -11,7 +11,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
   <link href="css/cookie.css" rel="stylesheet"/>
-
+  <link href="css/cookiealert.css" rel="stylesheet"/>
+  <link href="js/cookiealert.js" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
 
 
 </head>
@@ -207,8 +211,17 @@
     
 
 </section>
-
-
+<div class="alert text-center cookiealert" role="alert">
+    <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="https://cookiesandyou.com/" target="_blank">Learn more</a>
+    <button type="button" class="btn btn-primary btn-sm acceptcookies">
+        I agree
+    </button>
+  </div>
+  <script>
+    for (var i = 1; i <= 150; i++)
+        document.querySelector("#fillme").innerHTML += "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
 <footer class="footerAux ">
     <p style="text-align: center;"><p class="footah">Trabajo hecho por Javier López Ramírez, Carlos Daniell Tec Puhawan, Álvaro Martín Gomez y Carlos Raul Salazar</a>
     <a class="liknsfooter footah" href="https://www.iaeu.edu.es/footer-menu/condiciones-legales/%22%3ECondiciones Legales</a> | <a class="liknsfooter" href="ABOUT.html">
